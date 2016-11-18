@@ -36,4 +36,15 @@
         android:layout_alignBottom="@+id/pregled"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="84dp" />
+
+    <TextView
+        android:text="To Do List"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:layout_marginTop="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>

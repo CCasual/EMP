@@ -29,7 +29,8 @@ public class NovaNaloga extends AppCompatActivity {
         final Spinner dropdown1 = (Spinner)findViewById(R.id.interval_ponavljanja);
         String[] cas = new String[]{"Vsak dan", "Do konca tedna", "Vsak ponedeljek", "Vsak torek", "Vsako sredo", "Vsak četrtek", "Vsak petek", "Vsako soboto", "Vsako nedeljo"};
         ArrayAdapter<String> adapter1 = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, items);
-        dropdown.setAdapter(adapter);
+        dropdown1.setAdapter(adapter1);
+
 
         final EditText ed1 = (EditText)findViewById(R.id.naloga);
         final EditText ed2 = (EditText)findViewById(R.id.editText);
